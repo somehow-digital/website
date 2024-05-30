@@ -3,6 +3,8 @@ export default {
 	language: 'en',
 	ignorePaths: [
 		'node_modules',
+		'build',
+		'styles',
 		'package.json',
 		'pnpm-lock.yaml',
 		'.gitignore',
