@@ -1,0 +1,9 @@
+{
+	"extends": "@somehow-digital/typescript-config",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./app/*"]
+		}
+	}
+}

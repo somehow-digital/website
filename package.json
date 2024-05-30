@@ -1,0 +1,58 @@
+{
+	"private": true,
+	"type": "module",
+	"sideEffects": false,
+	"packageManager": "pnpm@9.1.0",
+	"engines": {
+		"node": ">=20.3.0",
+		"pnpm": ">=9.0.0"
+	},
+	"scripts": {
+		"start": "remix vite:dev",
+		"build": "remix vite:build",
+		"serve": "wrangler pages dev ./build/client",
+		"deploy": "wrangler pages deploy",
+		"prepare": "pnpm run /^prepare:.+/",
+		"prepare:husky": "husky",
+		"prepare:panda": "panda codegen",
+		"prepare:wrangler": "wrangler types",
+		"lint": "pnpm run /^lint:.+/",
+		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
+		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
+		"lint:knip": "knip --no-progress"
+	},
+	"dependencies": {
+		"@remix-run/cloudflare": "^2.9.2",
+		"@remix-run/cloudflare-pages": "^2.9.2",
+		"@remix-run/react": "^2.9.2",
+		"isbot": "^4.4.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20240529.0",
+		"@commitlint/cli": "^19.3.0",
+		"@fontsource-variable/gabarito": "^5.0.4",
+		"@pandacss/dev": "^0.40.0",
+		"@remix-run/dev": "^2.9.2",
+		"@somehow-digital/commitlint-plugin-spellcheck": "^1.0.1",
+		"@somehow-digital/eslint-config": "^2.0.0",
+		"@somehow-digital/prettier-config": "^2.0.0",
+		"@somehow-digital/typescript-config": "^2.0.0",
+		"@types/node": "^20.12.7",
+		"@types/react": "^18.2.20",
+		"@types/react-dom": "^18.2.7",
+		"cspell": "^8.7.0",
+		"eslint": "^9.1.1",
+		"husky": "^9.0.11",
+		"knip": "^5.11.0",
+		"lint-staged": "^15.2.2",
+		"node-fetch": "^3.3.2",
+		"prettier": "^3.2.5",
+		"typescript": "^5.4.5",
+		"vite": "^5.1.0",
+		"vite-tsconfig-paths": "^4.2.1",
+		"wrangler": "^3.57.2"
+	}
+}
