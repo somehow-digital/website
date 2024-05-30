@@ -7,7 +7,7 @@ import {
 } from '@remix-run/react';
 
 import styles from './index.css?url';
-import { LinksFunction } from '@remix-run/node';
+import { LinksFunction } from '@remix-run/cloudflare';
 
 export const links: LinksFunction = () => [
 	{ rel: 'stylesheet', href: styles },
