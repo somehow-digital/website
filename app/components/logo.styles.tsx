@@ -11,8 +11,9 @@ export const base = css({
 	'fontFamily': '"Gabarito", sans-serif',
 	'fontWeight': 450,
 	'fontSize': '2.5rem',
-	'lineHeight': '0.9em',
+	'lineHeight': '1em',
 	'letterSpacing': '-0.025em',
+	'visibility': 'hidden',
 });
 
 export const type = css({
@@ -21,6 +22,11 @@ export const type = css({
 	display: 'block',
 	flexGrow: 0,
 	flexShrink: 0,
+	overflowX: 'clip',
+});
+
+export const phrase = css({
+	display: 'block',
 });
 
 export const mark = css({
@@ -41,6 +47,7 @@ export const bar = css({
 	'height': '100%',
 	'borderRadius': '0.025em',
 	'backgroundColor': 'currentColor',
+	'transformOrigin': 'center bottom',
 
 	'&:nth-child(1)': {
 		alignSelf: 'flex-end',
