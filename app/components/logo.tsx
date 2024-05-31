@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useEffect, useRef } from 'react';
+import { FunctionComponent, useEffect, useRef } from 'react';
 import {
 	animation,
 	LogoAnimationReferences,
