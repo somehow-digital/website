@@ -14,11 +14,10 @@ export const animation = (references: LogoAnimationReferences) => {
 		[
 			references.base.current,
 			{
-				visibility: ['hidden', 'visible'],
+				visibility: 'visible',
 			},
 			{
-				at: 0,
-				duration: 0.01,
+				duration: 0,
 			},
 		],
 		[
@@ -29,7 +28,6 @@ export const animation = (references: LogoAnimationReferences) => {
 				scaleY: [2, 1],
 			},
 			{
-				at: 0,
 				duration: 0.25,
 				easing: 'ease-out',
 				delay: stagger(0.025, {

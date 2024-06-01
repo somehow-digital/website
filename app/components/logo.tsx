@@ -15,7 +15,11 @@ export const Logo: FunctionComponent = () => {
 	};
 
 	useEffect(() => {
-		animation(references);
+		const controls = animation(references);
+
+		return () => {
+			controls.cancel();
+		};
 	}, []);
 
 	return (
