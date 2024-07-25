@@ -36,6 +36,9 @@ importers:
       '@commitlint/cli':
         specifier: ^19.3.0
         version: 19.3.0(@types/node@20.14.12)(typescript@5.5.4)
+      '@cspell/dict-de-de':
+        specifier: ^4.0.0
+        version: 4.0.0
       '@fontsource-variable/gabarito':
         specifier: ^5.0.4
         version: 5.0.5
@@ -434,6 +437,9 @@ packages:
 
   '@cspell/dict-data-science@2.0.1':
     resolution: {integrity: sha512-xeutkzK0eBe+LFXOFU2kJeAYO6IuFUc1g7iRLr7HeCmlC4rsdGclwGHh61KmttL3+YHQytYStxaRBdGAXWC8Lw==}
+
+  '@cspell/dict-de-de@4.0.0':
+    resolution: {integrity: sha512-MLRMRy44xdjtBLW2jqO73RTbnNfSLztK/mG1/LSblY4hpWxc6iJBAVA7hQye8m06sde6FHgnP38x+jgql/6q6A==}
 
   '@cspell/dict-django@4.1.0':
     resolution: {integrity: sha512-bKJ4gPyrf+1c78Z0Oc4trEB9MuhcB+Yg+uTTWsvhY6O2ncFYbB/LbEZfqhfmmuK/XJJixXfI1laF2zicyf+l0w==}
@@ -5216,6 +5222,8 @@ snapshots:
   '@cspell/dict-dart@2.0.3': {}
 
   '@cspell/dict-data-science@2.0.1': {}
+
+  '@cspell/dict-de-de@4.0.0': {}
 
   '@cspell/dict-django@4.1.0': {}
 

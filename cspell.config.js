@@ -1,6 +1,7 @@
 export default {
 	version: '0.2',
 	language: 'en',
+	import: ['@cspell/dict-de-de'],
 	ignorePaths: [
 		'node_modules',
 		'build',
@@ -12,6 +13,7 @@ export default {
 	],
 	dictionaries: [
 		'en_US',
+		'de-de',
 		'softwareTerms',
 		'typescript',
 		'node',
