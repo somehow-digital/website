@@ -1,28 +1,8 @@
 export default {
-	version: '0.2',
+	import: ['@somehow-digital/cspell-dictionary'],
 	language: 'en',
-	import: ['@cspell/dict-de-de'],
-	ignorePaths: [
-		'node_modules',
-		'build',
-		'styles',
-		'package.json',
-		'pnpm-lock.yaml',
-		'.gitignore',
-		'tsconfig.tsbuildinfo',
-	],
-	dictionaries: [
-		'en_US',
-		'de-de',
-		'softwareTerms',
-		'typescript',
-		'node',
-		'html',
-		'css',
-		'bash',
-		'misc',
-		'project',
-	],
+	version: '0.2',
+	ignorePaths: ['**/build/', '**/styles/', '**/*.tsbuildinfo'],
 	dictionaryDefinitions: [
 		{
 			name: 'project',
@@ -30,4 +10,5 @@ export default {
 			addWords: true,
 		},
 	],
+	dictionaries: ['project'],
 };

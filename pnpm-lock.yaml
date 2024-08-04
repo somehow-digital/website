@@ -36,9 +36,6 @@ importers:
       '@commitlint/cli':
         specifier: ^19.3.0
         version: 19.3.0(@types/node@20.14.14)(typescript@5.5.4)
-      '@cspell/dict-de-de':
-        specifier: ^4.0.0
-        version: 4.0.0
       '@fontsource-variable/gabarito':
         specifier: ^5.0.4
         version: 5.0.5
@@ -51,6 +48,9 @@ importers:
       '@somehow-digital/commitlint-plugin-spellcheck':
         specifier: ^1.0.1
         version: 1.0.1(cspell@8.13.1)
+      '@somehow-digital/cspell-dictionary':
+        specifier: ^1.0.0
+        version: 1.0.0(cspell@8.13.1)
       '@somehow-digital/eslint-config':
         specifier: ^2.0.0
         version: 2.0.0(eslint@9.8.0)(prettier@3.3.3)(typescript@5.5.4)
@@ -1530,6 +1530,12 @@ packages:
     engines: {node: '>=20.3.0', pnpm: '>=9.0.0'}
     peerDependencies:
       cspell: ^8.8.1
+
+  '@somehow-digital/cspell-dictionary@1.0.0':
+    resolution: {integrity: sha512-rTMu5qCnZJF1xhH7U8SM5lRbZ3FQao9d9LWg0qlcoUa5ooo5DjZ8eSq/okNYkatxley5fVZFzwkre8Z3AElkQg==}
+    engines: {node: '>=20.3.0', pnpm: '>=9.0.0'}
+    peerDependencies:
+      cspell: ^8.13.0
 
   '@somehow-digital/eslint-config@2.0.0':
     resolution: {integrity: sha512-PnQqfW1GeN54vUiOL34nVH5Wz9w1eCG1l1h2eDfN4Df0FGxjxd/7JH7tzpy6eEnNIhArAD9TngThLbbKiUN/nw==}
@@ -6327,6 +6333,11 @@ snapshots:
       cspell: 8.13.1
       cspell-lib: 8.12.1
 
+  '@somehow-digital/cspell-dictionary@1.0.0(cspell@8.13.1)':
+    dependencies:
+      '@cspell/dict-de-de': 4.0.0
+      cspell: 8.13.1
+
   '@somehow-digital/eslint-config@2.0.0(eslint@9.8.0)(prettier@3.3.3)(typescript@5.5.4)':
     dependencies:
       '@eslint/js': 9.7.0
@@ -6522,7 +6533,7 @@ snapshots:
       '@babel/plugin-syntax-typescript': 7.24.7(@babel/core@7.25.2)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.6
       '@vanilla-extract/css': 1.15.3
-      esbuild: 0.17.6
+      esbuild: 0.17.19
       eval: 0.1.8
       find-up: 5.0.0
       javascript-stringify: 2.1.0

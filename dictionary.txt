@@ -1,6 +1,2 @@
-outdir
 isbot
 gabarito
-fontsource
-wght
-pandacss
