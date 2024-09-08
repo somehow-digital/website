@@ -38,7 +38,7 @@ importers:
         version: 19.4.1(@types/node@20.16.5)(typescript@5.5.4)
       '@fontsource-variable/gabarito':
         specifier: ^5.0.4
-        version: 5.0.6
+        version: 5.0.7
       '@pandacss/dev':
         specifier: ^0.45.0
         version: 0.45.2(typescript@5.5.4)
@@ -1248,8 +1248,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@fontsource-variable/gabarito@5.0.6':
-    resolution: {integrity: sha512-IAyrxbyshKAZkTlaht0C+UQGlFAVLl9tEi4ZgRIx3Kr1nt56M8193ezGIXBxfQxEBtTEUrQCbFaj6yhlkb0cDw==}
+  '@fontsource-variable/gabarito@5.0.7':
+    resolution: {integrity: sha512-47GBfMLl2sCQRgUFjSlralJM9ZWZEZilEaG1vHV9fibs76GCbn1+zaJjN75klhH50bwA3qZG1lsoo0T+7ZhJsw==}
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -5870,7 +5870,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@fontsource-variable/gabarito@5.0.6': {}
+  '@fontsource-variable/gabarito@5.0.7': {}
 
   '@humanwhocodes/module-importer@1.0.1': {}
 
