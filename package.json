@@ -37,7 +37,7 @@
 		"@fontsource-variable/gabarito": "^5.0.4",
 		"@pandacss/dev": "^0.46.0",
 		"@remix-run/dev": "^2.9.2",
-		"@somehow-digital/commitlint-plugin-spellcheck": "^1.0.1",
+		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^1.0.0",
 		"@somehow-digital/eslint-config": "^2.0.0",
 		"@somehow-digital/prettier-config": "^2.0.0",
