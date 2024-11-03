@@ -42,7 +42,7 @@
 		"@somehow-digital/eslint-config": "^2.0.0",
 		"@somehow-digital/prettier-config": "^2.0.0",
 		"@somehow-digital/typescript-config": "^2.0.0",
-		"@types/node": "^20.12.7",
+		"@types/node": "^22.0.0",
 		"@types/react": "^18.2.20",
 		"@types/react-dom": "^18.2.7",
 		"concurrently": "^9.0.0",
