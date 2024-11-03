@@ -4,8 +4,8 @@
 	"sideEffects": false,
 	"packageManager": "pnpm@9.12.3",
 	"engines": {
-		"node": ">=20.3.0",
-		"pnpm": ">=9.0.0"
+		"node": ">=22",
+		"pnpm": ">=9"
 	},
 	"scripts": {
 		"start": "remix vite:dev",
@@ -42,7 +42,7 @@
 		"@somehow-digital/eslint-config": "^2.0.0",
 		"@somehow-digital/prettier-config": "^2.0.0",
 		"@somehow-digital/typescript-config": "^2.0.0",
-		"@types/node": "^20.12.7",
+		"@types/node": "^22.8.7",
 		"@types/react": "^18.2.20",
 		"@types/react-dom": "^18.2.7",
 		"concurrently": "^9.0.0",
