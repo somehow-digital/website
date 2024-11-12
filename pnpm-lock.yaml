@@ -21,8 +21,8 @@ importers:
         specifier: ^5.0.0
         version: 5.1.17
       motion:
-        specifier: ^10.17.0
-        version: 10.18.0
+        specifier: ^11.0.0
+        version: 11.11.14(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -1428,24 +1428,6 @@ packages:
   '@mdx-js/mdx@2.3.0':
     resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
 
-  '@motionone/animation@10.18.0':
-    resolution: {integrity: sha512-9z2p5GFGCm0gBsZbi8rVMOAJCtw1WqBTIPw3ozk06gDvZInBPIsQcHgYogEJ4yuHJ+akuW8g1SEIOpTOvYs8hw==}
-
-  '@motionone/dom@10.18.0':
-    resolution: {integrity: sha512-bKLP7E0eyO4B2UaHBBN55tnppwRnaE3KFfh3Ps9HhnAkar3Cb69kUCJY9as8LrccVYKgHA+JY5dOQqJLOPhF5A==}
-
-  '@motionone/easing@10.18.0':
-    resolution: {integrity: sha512-VcjByo7XpdLS4o9T8t99JtgxkdMcNWD3yHU/n6CLEz3bkmKDRZyYQ/wmSf6daum8ZXqfUAgFeCZSpJZIMxaCzg==}
-
-  '@motionone/generators@10.18.0':
-    resolution: {integrity: sha512-+qfkC2DtkDj4tHPu+AFKVfR/C30O1vYdvsGYaR13W/1cczPrrcjdvYCj0VLFuRMN+lP1xvpNZHCRNM4fBzn1jg==}
-
-  '@motionone/types@10.17.1':
-    resolution: {integrity: sha512-KaC4kgiODDz8hswCrS0btrVrzyU2CSQKO7Ps90ibBVSQmjkrt2teqta6/sOG59v7+dPnKMAg13jyqtMKV2yJ7A==}
-
-  '@motionone/utils@10.18.0':
-    resolution: {integrity: sha512-3XVF7sgyTSI2KWvTf6uLlBJ5iAgRgmvp3bpuOiQJvInd4nZ19ET8lX5unn30SlmRH7hXbBbH+Gxd0m0klJ3Xtw==}
-
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -2843,6 +2825,20 @@ packages:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
 
+  framer-motion@11.11.13:
+    resolution: {integrity: sha512-aoEA83gsqRRsnh4TN7S9YNcKVLrg+GtPNnxNMd9bGn23+pLmuKGQeccPnqffEKzlkgmy2MkMo0jRkK41S2LzWw==}
+    peerDependencies:
+      '@emotion/is-prop-valid': '*'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      '@emotion/is-prop-valid':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+
   fresh@0.5.2:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
     engines: {node: '>= 0.6'}
@@ -2997,9 +2993,6 @@ packages:
 
   hast-util-whitespace@2.0.1:
     resolution: {integrity: sha512-nAxA0v8+vXSBDt3AnRUNjyRIQ0rD+ntpbAp4LnPkumc5M9yUbSMa4XDU9Q6etY4f1Wp4bNgvc1yjiZtsTTrSng==}
-
-  hey-listen@1.0.8:
-    resolution: {integrity: sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==}
 
   hookable@5.5.3:
     resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
@@ -3708,8 +3701,19 @@ packages:
   modern-ahocorasick@1.1.0:
     resolution: {integrity: sha512-sEKPVl2rM+MNVkGQt3ChdmD8YsigmXdn5NifZn6jiwn9LRJpWm8F3guhaqrJT/JOat6pwpbXEk6kv+b9DMIjsQ==}
 
-  motion@10.18.0:
-    resolution: {integrity: sha512-MVAZZmwM/cp77BrNe1TxTMldxRPjwBNHheU5aPToqT4rJdZxLiADk58H+a0al5jKLxkB0OdgNq6DiVn11cjvIQ==}
+  motion@11.11.14:
+    resolution: {integrity: sha512-WABtM4t3+SQ4jQ/5TDkRsH9VD6jakGeOrnzra4tnDma0JUT21/n113yCyn889yJSq0bEJnfFphFXo0gOVRICXg==}
+    peerDependencies:
+      '@emotion/is-prop-valid': '*'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      '@emotion/is-prop-valid':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -6142,41 +6146,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@motionone/animation@10.18.0':
-    dependencies:
-      '@motionone/easing': 10.18.0
-      '@motionone/types': 10.17.1
-      '@motionone/utils': 10.18.0
-      tslib: 2.8.1
-
-  '@motionone/dom@10.18.0':
-    dependencies:
-      '@motionone/animation': 10.18.0
-      '@motionone/generators': 10.18.0
-      '@motionone/types': 10.17.1
-      '@motionone/utils': 10.18.0
-      hey-listen: 1.0.8
-      tslib: 2.8.1
-
-  '@motionone/easing@10.18.0':
-    dependencies:
-      '@motionone/utils': 10.18.0
-      tslib: 2.8.1
-
-  '@motionone/generators@10.18.0':
-    dependencies:
-      '@motionone/types': 10.17.1
-      '@motionone/utils': 10.18.0
-      tslib: 2.8.1
-
-  '@motionone/types@10.17.1': {}
-
-  '@motionone/utils@10.18.0':
-    dependencies:
-      '@motionone/types': 10.17.1
-      hey-listen: 1.0.8
-      tslib: 2.8.1
-
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -8041,6 +8010,13 @@ snapshots:
 
   forwarded@0.2.0: {}
 
+  framer-motion@11.11.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      tslib: 2.8.1
+    optionalDependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
   fresh@0.5.2: {}
 
   fs-constants@1.0.0: {}
@@ -8197,8 +8173,6 @@ snapshots:
       - supports-color
 
   hast-util-whitespace@2.0.1: {}
-
-  hey-listen@1.0.8: {}
 
   hookable@5.5.3: {}
 
@@ -9008,12 +8982,13 @@ snapshots:
 
   modern-ahocorasick@1.1.0: {}
 
-  motion@10.18.0:
+  motion@11.11.14(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@motionone/animation': 10.18.0
-      '@motionone/dom': 10.18.0
-      '@motionone/types': 10.17.1
-      '@motionone/utils': 10.18.0
+      framer-motion: 11.11.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      tslib: 2.8.1
+    optionalDependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
   mri@1.2.0: {}
 
