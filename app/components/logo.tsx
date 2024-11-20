@@ -1,17 +1,20 @@
-import { FunctionComponent, useEffect, useRef } from 'react';
-import {
-	animation,
-	LogoAnimationReferences,
-} from '~/components/logo.animation';
+import type { FunctionComponent } from 'react';
+
+import { useEffect, useRef } from 'react';
+
+import type { LogoAnimationReferences } from '~/components/logo.animation';
+
+import { animation } from '~/components/logo.animation';
+
 import * as styles from './logo.styles';
 
 export const Logo: FunctionComponent = () => {
 	const references: LogoAnimationReferences = {
+		bars: useRef<HTMLSpanElement[]>([]),
 		base: useRef<HTMLHeadingElement>(null),
+		dot: useRef<HTMLSpanElement>(null),
 		mark: useRef<HTMLSpanElement>(null),
 		type: useRef<HTMLSpanElement[]>([]),
-		bars: useRef<HTMLSpanElement[]>([]),
-		dot: useRef<HTMLSpanElement>(null),
 	};
 
 	useEffect(() => {
@@ -28,9 +31,9 @@ export const Logo: FunctionComponent = () => {
 				<span
 					className={styles.phrase}
 					ref={(element) => {
-						element &&
-							references.type.current &&
-							(references.type.current[0] = element);
+						if (element && references.type.current) {
+							references.type.current[0] = element;
+						}
 					}}>
 					somehow
 				</span>
@@ -38,24 +41,24 @@ export const Logo: FunctionComponent = () => {
 				<span
 					className={styles.phrase}
 					ref={(element) => {
-						element &&
-							references.type.current &&
-							(references.type.current[1] = element);
+						if (element && references.type.current) {
+							references.type.current[1] = element;
+						}
 					}}>
 					digital<span ref={references.dot}>.</span>
 				</span>
 			</span>
 
-			<span className={styles.mark} aria-hidden="true" ref={references.mark}>
+			<span aria-hidden="true" className={styles.mark} ref={references.mark}>
 				{[1, 2, 3, 4, 5].map((value, index) => {
 					return (
 						<span
-							key={value}
 							className={styles.bar}
+							key={value}
 							ref={(element) => {
-								element &&
-									references.bars.current &&
-									(references.bars.current[index] = element);
+								if (element && references.bars.current) {
+									references.bars.current[index] = element;
+								}
 							}}></span>
 					);
 				})}

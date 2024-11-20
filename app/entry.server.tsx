@@ -1,4 +1,5 @@
 import type { EntryContext } from '@remix-run/cloudflare';
+
 import { RemixServer } from '@remix-run/react';
 import { isbot } from 'isbot';
 import { renderToReadableStream } from 'react-dom/server';
@@ -12,11 +13,11 @@ export default async function handleRequest(
 	const body = await renderToReadableStream(
 		<RemixServer context={remixContext} url={request.url} />,
 		{
-			signal: request.signal,
 			onError(error: unknown) {
 				console.error(error);
 				responseStatusCode = 500;
 			},
+			signal: request.signal,
 		},
 	);
 
