@@ -43,7 +43,7 @@
 		"@remix-run/dev": "^2.9.2",
 		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^1.0.0",
-		"@somehow-digital/eslint-config": "^2.0.0",
+		"@somehow-digital/eslint-config": "^3.0.0",
 		"@somehow-digital/prettier-config": "^2.0.0",
 		"@somehow-digital/typescript-config": "^2.0.0",
 		"@types/node": "^22.8.7",
