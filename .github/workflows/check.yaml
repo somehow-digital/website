@@ -1,0 +1,30 @@
+name: CHECK
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: setup package manager
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          cache: 'pnpm'
+          check-latest: true
+          node-version-file: '.nvmrc'
+      - name: install dependencies
+        run: pnpm install
+      - name: lint codebase
+        run: pnpm lint
