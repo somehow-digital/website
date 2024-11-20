@@ -1,14 +1,14 @@
 import { defineConfig } from '@pandacss/dev';
 
 export default defineConfig({
-	preflight: true,
+	exclude: [],
 	include: [
 		'./app/routes/**/*.{ts,tsx,js,jsx}',
 		'./app/components/**/*.{ts,tsx,js,jsx}',
 	],
-	exclude: [],
+	outdir: './styles/',
+	preflight: true,
 	theme: {
 		extend: {},
 	},
-	outdir: './styles/',
 });

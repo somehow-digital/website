@@ -1,13 +1,14 @@
-import { RefObject } from 'react';
+import type { RefObject } from 'react';
+
 import { stagger, timeline } from 'motion';
 
-export type LogoAnimationReferences = {
+export interface LogoAnimationReferences {
+	bars: RefObject<HTMLSpanElement[]>;
 	base: RefObject<HTMLHeadingElement>;
+	dot: RefObject<HTMLSpanElement>;
 	mark: RefObject<HTMLSpanElement>;
 	type: RefObject<HTMLSpanElement[]>;
-	bars: RefObject<HTMLSpanElement[]>;
-	dot: RefObject<HTMLSpanElement>;
-};
+}
 
 export const animation = (references: LogoAnimationReferences) => {
 	return timeline([
@@ -23,16 +24,16 @@ export const animation = (references: LogoAnimationReferences) => {
 		[
 			references.bars.current,
 			{
-				y: ['-25%', 0],
 				opacity: [0, 1],
 				scaleY: [2, 1],
+				y: ['-25%', 0],
 			},
 			{
-				duration: 0.25,
-				easing: 'ease-out',
 				delay: stagger(0.025, {
 					easing: 'ease-out',
 				}),
+				duration: 0.25,
+				easing: 'ease-out',
 			},
 		],
 		[
@@ -49,8 +50,8 @@ export const animation = (references: LogoAnimationReferences) => {
 		[
 			references.type.current[0],
 			{
-				x: ['-200%', 0],
 				opacity: [0, 1],
+				x: ['-200%', 0],
 			},
 			{
 				at: 0.5,
@@ -61,8 +62,8 @@ export const animation = (references: LogoAnimationReferences) => {
 		[
 			references.type.current[1],
 			{
-				x: ['-125%', 0],
 				opacity: [0, 1],
+				x: ['-125%', 0],
 			},
 			{
 				at: 0.5,

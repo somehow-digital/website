@@ -1,3 +1,5 @@
+import type { LinksFunction } from '@remix-run/cloudflare';
+
 import {
 	Links,
 	Meta,
@@ -7,19 +9,22 @@ import {
 } from '@remix-run/react';
 
 import styles from './index.css?url';
-import { LinksFunction } from '@remix-run/cloudflare';
 
 export const links: LinksFunction = () => [
-	{ rel: 'stylesheet', href: styles },
-	{ rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
+	{ href: styles, rel: 'stylesheet' },
+	{ href: '/favicon.svg', rel: 'icon', type: 'image/svg+xml' },
 ];
+
+export default function App() {
+	return <Outlet />;
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
 			<head>
 				<meta charSet="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta content="width=device-width, initial-scale=1" name="viewport" />
 				<Meta />
 				<Links />
 			</head>
@@ -31,8 +36,4 @@ export function Layout({ children }: { children: React.ReactNode }) {
 			</body>
 		</html>
 	);
-}
-
-export default function App() {
-	return <Outlet />;
 }

@@ -2,27 +2,27 @@ import { css } from 'styles/css';
 
 export const base = css({
 	'--scale': 1.25,
-	'position': 'relative',
+	'alignItems': 'center',
 	'display': 'flex',
 	'flexDirection': 'row-reverse',
-	'alignItems': 'center',
-	'gap': '0.35em',
-	'margin': 0,
 	'fontFamily': '"Gabarito", sans-serif',
-	'fontWeight': 450,
 	'fontSize': '2.5rem',
-	'lineHeight': '1em',
+	'fontWeight': 450,
+	'gap': '0.35em',
 	'letterSpacing': '-0.025em',
+	'lineHeight': '1em',
+	'margin': 0,
+	'position': 'relative',
 	'visibility': 'hidden',
 });
 
 export const type = css({
-	position: 'relative',
-	top: '-0.09em',
 	display: 'block',
 	flexGrow: 0,
 	flexShrink: 0,
 	overflowX: 'clip',
+	position: 'relative',
+	top: '-0.09em',
 });
 
 export const phrase = css({
@@ -30,25 +30,16 @@ export const phrase = css({
 });
 
 export const mark = css({
+	alignItems: 'center',
+	aspectRatio: '1',
 	display: 'flex',
 	flexDirection: 'row',
-	alignItems: 'center',
 	flexGrow: 0,
 	flexShrink: 0,
 	gap: '0.05em',
-	aspectRatio: '1',
 });
 
 export const bar = css({
-	'display': 'block',
-	'margin': 0,
-	'padding': 0,
-	'width': 'calc(0.25em * var(--scale))',
-	'height': '100%',
-	'borderRadius': '0.025em',
-	'backgroundColor': 'currentColor',
-	'transformOrigin': 'center bottom',
-
 	'&:nth-child(1)': {
 		alignSelf: 'flex-end',
 		height: '80%',
@@ -60,4 +51,13 @@ export const bar = css({
 	'&:nth-child(5)': {
 		height: '60%',
 	},
+	'backgroundColor': 'currentColor',
+	'borderRadius': '0.025em',
+	'display': 'block',
+	'height': '100%',
+	'margin': 0,
+
+	'padding': 0,
+	'transformOrigin': 'center bottom',
+	'width': 'calc(0.25em * var(--scale))',
 });
