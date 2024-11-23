@@ -1,13 +1,15 @@
-name: CHECK
+name: SOURCE
 
 on:
+  merge_group:
   pull_request:
   push:
     branches:
       - main
 
 jobs:
-  install:
+  lint:
+    name: lint source
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
@@ -26,5 +28,5 @@ jobs:
           node-version-file: '.nvmrc'
       - name: install dependencies
         run: pnpm install
-      - name: lint codebase
+      - name: lint source
         run: pnpm lint
