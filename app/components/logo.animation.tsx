@@ -1,6 +1,6 @@
 import type { RefObject } from 'react';
 
-import { type AnimationControls, stagger, timeline } from 'motion';
+import { animate, type AnimationPlaybackControls, stagger } from 'motion/react';
 
 export interface LogoAnimationReferences {
 	bars: RefObject<HTMLElement[]>;
@@ -12,7 +12,7 @@ export interface LogoAnimationReferences {
 
 export const animation = (
 	references: LogoAnimationReferences,
-): AnimationControls | undefined => {
+): AnimationPlaybackControls | undefined => {
 	return (
 		(references.base.current &&
 			references.bars.current &&
@@ -20,7 +20,7 @@ export const animation = (
 			references.dot.current &&
 			references.type.current?.[0] &&
 			references.type.current?.[1] &&
-			timeline([
+			animate([
 				[
 					references.base.current,
 					{
@@ -39,10 +39,10 @@ export const animation = (
 					},
 					{
 						delay: stagger(0.025, {
-							easing: 'ease-out',
+							ease: 'easeOut',
 						}),
 						duration: 0.25,
-						easing: 'ease-out',
+						ease: 'easeOut',
 					},
 				],
 				[
@@ -53,7 +53,7 @@ export const animation = (
 					{
 						at: 0.5,
 						duration: 0.5,
-						easing: 'ease-in-out',
+						ease: 'easeInOut',
 					},
 				],
 				[
@@ -65,7 +65,7 @@ export const animation = (
 					{
 						at: 0.5,
 						duration: 0.5,
-						easing: 'ease-out',
+						ease: 'easeOut',
 					},
 				],
 				[
@@ -77,7 +77,7 @@ export const animation = (
 					{
 						at: 0.5,
 						duration: 0.5,
-						easing: 'ease-out',
+						ease: 'easeOut',
 					},
 				],
 				[
@@ -88,7 +88,7 @@ export const animation = (
 					{
 						at: 1.25,
 						duration: 0.5,
-						easing: 'ease-out',
+						ease: 'easeOut',
 					},
 				],
 			])) ||
