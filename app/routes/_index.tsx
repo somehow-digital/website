@@ -1,4 +1,5 @@
 import type { MetaFunction } from '@remix-run/cloudflare';
+import type { JSX } from 'react/jsx-runtime';
 
 import { Logo } from '~/components/logo';
 
@@ -9,6 +10,6 @@ export const meta: MetaFunction = () => {
 	];
 };
 
-export default function Index() {
+export default function Index(): JSX.Element {
 	return <Logo />;
 }

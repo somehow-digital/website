@@ -2,10 +2,10 @@ import {
 	cloudflareDevProxyVitePlugin as proxy,
 	vitePlugin as remix,
 } from '@remix-run/dev';
-import { defineConfig } from 'vite';
+import { defineConfig, type UserConfig } from 'vite';
 import paths from 'vite-tsconfig-paths';
 
-export default defineConfig({
+const config: UserConfig = defineConfig({
 	plugins: [
 		proxy(),
 		remix({
@@ -18,3 +18,5 @@ export default defineConfig({
 		paths(),
 	],
 });
+
+export default config;

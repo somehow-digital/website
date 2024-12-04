@@ -1,6 +1,6 @@
 import { css } from 'styles/css';
 
-export const base = css({
+export const base: string = css({
 	'--scale': 1.25,
 	'alignItems': 'center',
 	'display': 'flex',
@@ -16,7 +16,7 @@ export const base = css({
 	'visibility': 'hidden',
 });
 
-export const type = css({
+export const type: string = css({
 	display: 'block',
 	flexGrow: 0,
 	flexShrink: 0,
@@ -25,11 +25,11 @@ export const type = css({
 	top: '-0.09em',
 });
 
-export const phrase = css({
+export const phrase: string = css({
 	display: 'block',
 });
 
-export const mark = css({
+export const mark: string = css({
 	alignItems: 'center',
 	aspectRatio: '1',
 	display: 'flex',
@@ -39,7 +39,7 @@ export const mark = css({
 	gap: '0.05em',
 });
 
-export const bar = css({
+export const bar: string = css({
 	'&:nth-child(1)': {
 		alignSelf: 'flex-end',
 		height: '80%',

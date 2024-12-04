@@ -9,7 +9,7 @@ export default async function handleRequest(
 	responseStatusCode: number,
 	responseHeaders: Headers,
 	remixContext: EntryContext,
-) {
+): Promise<Response> {
 	const body = await renderToReadableStream(
 		<RemixServer context={remixContext} url={request.url} />,
 		{
