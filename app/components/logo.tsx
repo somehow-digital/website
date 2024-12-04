@@ -10,19 +10,16 @@ import * as styles from './logo.styles';
 
 export const Logo: FunctionComponent = () => {
 	const references: LogoAnimationReferences = {
-		bars: useRef<HTMLSpanElement[]>([]),
+		bars: useRef<HTMLElement[]>([]),
 		base: useRef<HTMLHeadingElement>(null),
-		dot: useRef<HTMLSpanElement>(null),
-		mark: useRef<HTMLSpanElement>(null),
-		type: useRef<HTMLSpanElement[]>([]),
+		dot: useRef<HTMLElement>(null),
+		mark: useRef<HTMLElement>(null),
+		type: useRef<HTMLElement[]>([]),
 	};
 
 	useEffect(() => {
 		const controls = animation(references);
-
-		return () => {
-			controls.cancel();
-		};
+		return () => controls?.cancel();
 	}, []);
 
 	return (

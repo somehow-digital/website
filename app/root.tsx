@@ -1,4 +1,6 @@
 import type { LinksFunction } from '@remix-run/cloudflare';
+import type { ReactNode } from 'react';
+import type { JSX } from 'react/jsx-runtime';
 
 import {
 	Links,
@@ -15,11 +17,11 @@ export const links: LinksFunction = () => [
 	{ href: '/favicon.svg', rel: 'icon', type: 'image/svg+xml' },
 ];
 
-export default function App() {
+export default function App(): JSX.Element {
 	return <Outlet />;
 }
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export function Layout({ children }: { children: ReactNode }): JSX.Element {
 	return (
 		<html lang="en">
 			<head>
