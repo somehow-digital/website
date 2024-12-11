@@ -1,6 +1,10 @@
 import type { RefObject } from 'react';
 
-import { animate, type AnimationPlaybackControls, stagger } from 'motion/react';
+import {
+	animate,
+	type AnimationPlaybackControls,
+	stagger,
+} from 'framer-motion';
 
 export interface LogoAnimationReferences {
 	bars: RefObject<HTMLElement[]>;
