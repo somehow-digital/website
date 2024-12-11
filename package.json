@@ -30,8 +30,8 @@
 		"@remix-run/cloudflare": "^2.9.2",
 		"@remix-run/cloudflare-pages": "^2.9.2",
 		"@remix-run/react": "^2.9.2",
+		"framer-motion": "^11.13.5",
 		"isbot": "^5.0.0",
-		"motion": "^11.0.0",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"
 	},
