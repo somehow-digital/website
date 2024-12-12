@@ -19,7 +19,7 @@ importers:
         version: 2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2)
       framer-motion:
         specifier: ^11.13.5
-        version: 11.14.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 11.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       isbot:
         specifier: ^5.0.0
         version: 5.1.17
@@ -2749,8 +2749,8 @@ packages:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
 
-  framer-motion@11.14.0:
-    resolution: {integrity: sha512-/cPWeZ4GXAJwNj3Z2cp+WtbVDlXyhBWmoIlorgn6FieOcEmoritPGvg+dqO6GaUlXHYgW6YLpsAPzdFfQqWQ5Q==}
+  framer-motion@11.14.1:
+    resolution: {integrity: sha512-6B7jC54zgnefmUSa2l4gkc/2CrqclHL9AUbDxxRfbFyWKLd+4guUYtEabzoYMU8G5ICZ6CdJdydOLy74Ekd7ag==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -3630,11 +3630,11 @@ packages:
   modern-ahocorasick@1.1.0:
     resolution: {integrity: sha512-sEKPVl2rM+MNVkGQt3ChdmD8YsigmXdn5NifZn6jiwn9LRJpWm8F3guhaqrJT/JOat6pwpbXEk6kv+b9DMIjsQ==}
 
-  motion-dom@11.14.0:
-    resolution: {integrity: sha512-K7utJZxeMfUJNp/7VNtyasmj4AsqmX6dxT01ox2M9kndcww9soP4gFpf4n0wz7m249+c2ZRfWPnWdInzaxv03w==}
+  motion-dom@11.14.1:
+    resolution: {integrity: sha512-Y68tHWR0d2HxHDskNxpeY3pzUdz7L/m5A8TV7VSE6Sq4XUNJdZV8zXco1aeAQ44o48u0i8UKjt8TGIqkZSQ8ew==}
 
-  motion-utils@11.13.0:
-    resolution: {integrity: sha512-lq6TzXkH5c/ysJQBxgLXgM01qwBH1b4goTPh57VvZWJbVJZF/0SB31UWEn4EIqbVPf3au88n2rvK17SpDTja1A==}
+  motion-utils@11.14.1:
+    resolution: {integrity: sha512-R6SsehArpkEBUHydkcwQ/8ij8k2PyKWAJ7Y8PN3ztnFwq5RBU3zIamYH6esTp09OgsbwB57mBEZ9DORaN1WTxQ==}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -7804,10 +7804,10 @@ snapshots:
 
   forwarded@0.2.0: {}
 
-  framer-motion@11.14.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  framer-motion@11.14.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
-      motion-dom: 11.14.0
-      motion-utils: 11.13.0
+      motion-dom: 11.14.1
+      motion-utils: 11.14.1
       tslib: 2.8.1
     optionalDependencies:
       react: 19.0.0
@@ -8780,9 +8780,9 @@ snapshots:
 
   modern-ahocorasick@1.1.0: {}
 
-  motion-dom@11.14.0: {}
+  motion-dom@11.14.1: {}
 
-  motion-utils@11.13.0: {}
+  motion-utils@11.14.1: {}
 
   mri@1.2.0: {}
 
