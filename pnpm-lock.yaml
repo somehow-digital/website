@@ -44,7 +44,7 @@ importers:
         version: 0.49.0(typescript@5.7.2)
       '@remix-run/dev':
         specifier: ^2.9.2
-        version: 2.15.1(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(@types/node@22.10.2)(lightningcss@1.25.1)(typescript@5.7.2)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(lightningcss@1.25.1)(yaml@2.6.1))(wrangler@3.96.0(@cloudflare/workers-types@4.20241216.0))
+        version: 2.15.1(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(@types/node@22.10.2)(lightningcss@1.25.1)(typescript@5.7.2)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(lightningcss@1.25.1)(yaml@2.6.1))(wrangler@3.98.0(@cloudflare/workers-types@4.20241216.0))
       '@somehow-digital/commitlint-config':
         specifier: ^1.0.0
         version: 1.1.0(@commitlint/cli@19.6.1(@types/node@22.10.2)(typescript@5.7.2))(cspell@8.17.1)
@@ -101,7 +101,7 @@ importers:
         version: 5.1.4(typescript@5.7.2)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(lightningcss@1.25.1)(yaml@2.6.1))
       wrangler:
         specifier: ^3.57.2
-        version: 3.96.0(@cloudflare/workers-types@4.20241216.0)
+        version: 3.98.0(@cloudflare/workers-types@4.20241216.0)
 
 packages:
 
@@ -2088,8 +2088,8 @@ packages:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
 
-  chokidar@4.0.2:
-    resolution: {integrity: sha512-/b57FK+bblSU+dfewfFe0rT1YjVDfOmeLQwCAuC+vwvgLkXboATqqmy+Ipux6JrF6L5joe5CBnFOw+gLWH6yKg==}
+  chokidar@4.0.3:
+    resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
     engines: {node: '>= 14.16.0'}
 
   chownr@1.1.4:
@@ -4249,8 +4249,9 @@ packages:
     resolution: {integrity: sha512-OcXjMsGdhL4XnbShKpAcSqPMzQoYkYyhbEaeSko47MjRP9NfEQMhZkXL1DoFlt9LWQn4YttrdnV6X2OiyzBi+A==}
     engines: {node: '>=10'}
 
-  resolve@1.22.9:
-    resolution: {integrity: sha512-QxrmX1DzraFIi9PxdG5VkRfRwIgjwyud+z/iBwfRRrVmHc+P9Q7u2lSSpQ6bjr2gy5lrqIiU9vb6iAeGf2400A==}
+  resolve@1.22.10:
+    resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
+    engines: {node: '>= 0.4'}
     hasBin: true
 
   restore-cursor@3.1.0:
@@ -4909,8 +4910,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@3.96.0:
-    resolution: {integrity: sha512-KjbHTUnwTa5eKl3hzv2h6nHBfAsbUkdurL7f6Y288/Bdn6tcEis13jLVR/nw/eWa3tNCBG1xOMZJboUyzWcC1g==}
+  wrangler@3.98.0:
+    resolution: {integrity: sha512-s3R2Jdai+sIAQ1Fd+WzEK5fVxYHxAN7qbjYPXGx75dxM9/O2p+CT666PYLROGIk4sfAeLU4eVp9iqfVDuiQESw==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -6357,7 +6358,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.7.2
 
-  '@remix-run/dev@2.15.1(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(@types/node@22.10.2)(lightningcss@1.25.1)(typescript@5.7.2)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(lightningcss@1.25.1)(yaml@2.6.1))(wrangler@3.96.0(@cloudflare/workers-types@4.20241216.0))':
+  '@remix-run/dev@2.15.1(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(@types/node@22.10.2)(lightningcss@1.25.1)(typescript@5.7.2)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(lightningcss@1.25.1)(yaml@2.6.1))(wrangler@3.98.0(@cloudflare/workers-types@4.20241216.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/generator': 7.26.3
@@ -6418,7 +6419,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.7.2
       vite: 6.0.4(@types/node@22.10.2)(jiti@2.4.1)(lightningcss@1.25.1)(yaml@2.6.1)
-      wrangler: 3.96.0(@cloudflare/workers-types@4.20241216.0)
+      wrangler: 3.98.0(@cloudflare/workers-types@4.20241216.0)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -7085,7 +7086,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  chokidar@4.0.2:
+  chokidar@4.0.3:
     dependencies:
       readdirp: 4.0.2
 
@@ -9003,7 +9004,7 @@ snapshots:
   normalize-package-data@2.5.0:
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.9
+      resolve: 1.22.10
       semver: 5.7.2
       validate-npm-package-license: 3.0.4
 
@@ -9505,7 +9506,7 @@ snapshots:
 
   resolve.exports@2.0.3: {}
 
-  resolve@1.22.9:
+  resolve@1.22.10:
     dependencies:
       is-core-module: 2.16.0
       path-parse: 1.0.7
@@ -10164,20 +10165,20 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20241205.0
       '@cloudflare/workerd-windows-64': 1.20241205.0
 
-  wrangler@3.96.0(@cloudflare/workers-types@4.20241216.0):
+  wrangler@3.98.0(@cloudflare/workers-types@4.20241216.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
-      chokidar: 4.0.2
+      chokidar: 4.0.3
       date-fns: 4.1.0
       esbuild: 0.17.19
       itty-time: 1.0.6
       miniflare: 3.20241205.0
       nanoid: 3.3.8
       path-to-regexp: 6.3.0
-      resolve: 1.22.9
+      resolve: 1.22.10
       selfsigned: 2.4.1
       source-map: 0.6.1
       unenv: unenv-nightly@2.0.0-20241204-140205-a5d5190
