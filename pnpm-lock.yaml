@@ -44,7 +44,7 @@ importers:
         version: 0.50.0(typescript@5.7.2)
       '@remix-run/dev':
         specifier: ^2.9.2
-        version: 2.15.2(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(@types/node@22.10.2)(lightningcss@1.25.1)(typescript@5.7.2)(vite@6.0.6(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1))(wrangler@3.99.0(@cloudflare/workers-types@4.20241224.0))
+        version: 2.15.2(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(@types/node@22.10.2)(lightningcss@1.25.1)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1))(wrangler@3.99.0(@cloudflare/workers-types@4.20241224.0))
       '@somehow-digital/commitlint-config':
         specifier: ^1.0.0
         version: 1.1.0(@commitlint/cli@19.6.1(@types/node@22.10.2)(typescript@5.7.2))(cspell@8.17.1)
@@ -95,10 +95,10 @@ importers:
         version: 5.7.2
       vite:
         specifier: ^6.0.0
-        version: 6.0.6(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1)
+        version: 6.0.7(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1)
       vite-tsconfig-paths:
         specifier: ^5.0.0
-        version: 5.1.4(typescript@5.7.2)(vite@6.0.6(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1))
+        version: 5.1.4(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1))
       wrangler:
         specifier: ^3.57.2
         version: 3.99.0(@cloudflare/workers-types@4.20241224.0)
@@ -4791,8 +4791,8 @@ packages:
       terser:
         optional: true
 
-  vite@6.0.6:
-    resolution: {integrity: sha512-NSjmUuckPmDU18bHz7QZ+bTYhRR0iA72cs2QAxCqDpafJ0S6qetco0LB3WW2OxlMHS0JmAv+yZ/R3uPmMyGTjQ==}
+  vite@6.0.7:
+    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -6255,7 +6255,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.7.2
 
-  '@remix-run/dev@2.15.2(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(@types/node@22.10.2)(lightningcss@1.25.1)(typescript@5.7.2)(vite@6.0.6(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1))(wrangler@3.99.0(@cloudflare/workers-types@4.20241224.0))':
+  '@remix-run/dev@2.15.2(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2))(@types/node@22.10.2)(lightningcss@1.25.1)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1))(wrangler@3.99.0(@cloudflare/workers-types@4.20241224.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/generator': 7.26.3
@@ -6315,7 +6315,7 @@ snapshots:
       ws: 7.5.10
     optionalDependencies:
       typescript: 5.7.2
-      vite: 6.0.6(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1)
+      vite: 6.0.7(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1)
       wrangler: 3.99.0(@cloudflare/workers-types@4.20241224.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -9948,13 +9948,13 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@5.1.4(typescript@5.7.2)(vite@6.0.6(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1)):
+  vite-tsconfig-paths@5.1.4(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.4(typescript@5.7.2)
     optionalDependencies:
-      vite: 6.0.6(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1)
+      vite: 6.0.7(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -9969,7 +9969,7 @@ snapshots:
       fsevents: 2.3.3
       lightningcss: 1.25.1
 
-  vite@6.0.6(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1):
+  vite@6.0.7(@types/node@22.10.2)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.6.1):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
