@@ -5,3 +5,4 @@
 /styles/
 *.tsbuildinfo
 .env
+worker-configuration.d.ts
