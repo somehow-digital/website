@@ -44,7 +44,7 @@ importers:
         version: 0.53.3(typescript@5.8.2)
       '@remix-run/dev':
         specifier: ^2.9.2
-        version: 2.16.2(@remix-run/react@2.16.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2))(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.7.0))(wrangler@4.5.0(@cloudflare/workers-types@4.20250327.0))(yaml@2.7.0)
+        version: 2.16.2(@remix-run/react@2.16.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2))(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.7.0))(wrangler@4.5.1(@cloudflare/workers-types@4.20250327.0))(yaml@2.7.0)
       '@somehow-digital/commitlint-config':
         specifier: ^1.0.0
         version: 1.1.0(@commitlint/cli@19.8.0(@types/node@22.13.14)(typescript@5.8.2))(cspell@8.18.0)
@@ -101,7 +101,7 @@ importers:
         version: 5.1.4(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.7.0))
       wrangler:
         specifier: ^4.0.0
-        version: 4.5.0(@cloudflare/workers-types@4.20250327.0)
+        version: 4.5.1(@cloudflare/workers-types@4.20250327.0)
 
 packages:
 
@@ -3671,8 +3671,8 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
 
-  miniflare@4.20250321.0:
-    resolution: {integrity: sha512-os+NJA7Eqi00BJHdVhzIa+3PMotnCtZg3hiUIRYcsZF5W7He8SK2EkV8csAb+npZq3jZ4SNpDebO01swM5dcWw==}
+  miniflare@4.20250321.1:
+    resolution: {integrity: sha512-pQuVtF6vQ1zMvPCo3Z19mzSFjgnlEnybzNzAJZipsqIk6kMXpYBZq+d8cWmeQFkBYlgeZKeKJ4EBKT6KapfTNg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -4974,8 +4974,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@4.5.0:
-    resolution: {integrity: sha512-avu5ob9B8aVkC4N8b3f0QVcD8oehz3Y4zRkrsiTHbbaCgXNaa2uFU00YYip9DLNZCYM8aCupsGBuWqe1cBB09Q==}
+  wrangler@4.5.1:
+    resolution: {integrity: sha512-7ct52LPiKnjqtC6SteKr0aherOS6CmvEurGXxGoDjgIOuoAPjN7jjYAw3eEIReGPlcQXmhpPLuunVFkWNhCoZA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -6482,7 +6482,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.2
 
-  '@remix-run/dev@2.16.2(@remix-run/react@2.16.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2))(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.7.0))(wrangler@4.5.0(@cloudflare/workers-types@4.20250327.0))(yaml@2.7.0)':
+  '@remix-run/dev@2.16.2(@remix-run/react@2.16.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2))(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.7.0))(wrangler@4.5.1(@cloudflare/workers-types@4.20250327.0))(yaml@2.7.0)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/generator': 7.27.0
@@ -6544,7 +6544,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.2
       vite: 6.2.3(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.25.1)(yaml@2.7.0)
-      wrangler: 4.5.0(@cloudflare/workers-types@4.20250327.0)
+      wrangler: 4.5.1(@cloudflare/workers-types@4.20250327.0)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -9035,7 +9035,7 @@ snapshots:
 
   min-indent@1.0.1: {}
 
-  miniflare@4.20250321.0:
+  miniflare@4.20250321.1:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.14.0
@@ -10372,13 +10372,13 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20250321.0
       '@cloudflare/workerd-windows-64': 1.20250321.0
 
-  wrangler@4.5.0(@cloudflare/workers-types@4.20250327.0):
+  wrangler@4.5.1(@cloudflare/workers-types@4.20250327.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250321.0)
       blake3-wasm: 2.1.5
       esbuild: 0.24.2
-      miniflare: 4.20250321.0
+      miniflare: 4.20250321.1
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.15
       workerd: 1.20250321.0
