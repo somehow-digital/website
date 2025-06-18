@@ -83,7 +83,7 @@ importers:
         version: 9.1.7
       knip:
         specifier: ^5.11.0
-        version: 5.61.1(@types/node@22.15.32)(typescript@5.8.3)
+        version: 5.61.2(@types/node@22.15.32)(typescript@5.8.3)
       lint-staged:
         specifier: ^16.0.0
         version: 16.1.2
@@ -3345,8 +3345,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  knip@5.61.1:
-    resolution: {integrity: sha512-keywAzpu8R9S50JRT3qxilb1i/pv3ztBHhZ3tRuHvRclqfhfPkY7kb/G6l4q7zozbyndidSr7IScvayG76HtkA==}
+  knip@5.61.2:
+    resolution: {integrity: sha512-ZBv37zDvZj0/Xwk0e93xSjM3+5bjxgqJ0PH2GlB5tnWV0ktXtmatWLm+dLRUCT/vpO3SdGz2nNAfvVhuItUNcQ==}
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
@@ -5083,8 +5083,8 @@ packages:
   youch@3.3.4:
     resolution: {integrity: sha512-UeVBXie8cA35DS6+nBkls68xaBBXCye0CNznrhszZjTbRVnJKQuNsyLKBTTL4ln1o1rh2PKtv35twV7irj5SEg==}
 
-  zod-validation-error@3.5.1:
-    resolution: {integrity: sha512-ozT8jy2nHaeKjaRIEThwgRXBwm16hAy0BaTRx1I2IY1xrezPegmlFmYKb5tcvYqZDQm0sfZtDr2IR7CdCJzTGw==}
+  zod-validation-error@3.5.2:
+    resolution: {integrity: sha512-mdi7YOLtram5dzJ5aDtm1AG9+mxRma1iaMrZdYIpFO7epdKBUwLHIxTF8CPDeCQ828zAXYtizrKlEJAtzgfgrw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       zod: ^3.25.0
@@ -8544,7 +8544,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  knip@5.61.1(@types/node@22.15.32)(typescript@5.8.3):
+  knip@5.61.2(@types/node@22.15.32)(typescript@5.8.3):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@types/node': 22.15.32
@@ -8560,7 +8560,7 @@ snapshots:
       strip-json-comments: 5.0.2
       typescript: 5.8.3
       zod: 3.25.67
-      zod-validation-error: 3.5.1(zod@3.25.67)
+      zod-validation-error: 3.5.2(zod@3.25.67)
 
   levn@0.4.1:
     dependencies:
@@ -10484,7 +10484,7 @@ snapshots:
       mustache: 4.2.0
       stacktracey: 2.1.8
 
-  zod-validation-error@3.5.1(zod@3.25.67):
+  zod-validation-error@3.5.2(zod@3.25.67):
     dependencies:
       zod: 3.25.67
 
