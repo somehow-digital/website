@@ -1,10 +1,6 @@
 import type { RefObject } from 'react';
 
-import {
-	animate,
-	type AnimationPlaybackControls,
-	stagger,
-} from 'framer-motion';
+import { animate, type AnimationPlaybackControls, stagger } from 'framer-motion';
 
 export interface LogoAnimationReferences {
 	bars: RefObject<HTMLElement[]>;
@@ -14,9 +10,7 @@ export interface LogoAnimationReferences {
 	type: RefObject<HTMLElement[]>;
 }
 
-export const animation = (
-	references: LogoAnimationReferences,
-): AnimationPlaybackControls | undefined => {
+export const animation = (references: LogoAnimationReferences): AnimationPlaybackControls | undefined => {
 	return (
 		(references.base.current &&
 			references.bars.current &&

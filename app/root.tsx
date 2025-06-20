@@ -2,13 +2,7 @@ import type { LinksFunction } from '@remix-run/cloudflare';
 import type { ReactNode } from 'react';
 import type { JSX } from 'react/jsx-runtime';
 
-import {
-	Links,
-	Meta,
-	Outlet,
-	Scripts,
-	ScrollRestoration,
-} from '@remix-run/react';
+import { Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
 
 import styles from './index.css?url';
 

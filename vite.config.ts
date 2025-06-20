@@ -1,7 +1,4 @@
-import {
-	cloudflareDevProxyVitePlugin as proxy,
-	vitePlugin as remix,
-} from '@remix-run/dev';
+import { cloudflareDevProxyVitePlugin as proxy, vitePlugin as remix } from '@remix-run/dev';
 import { defineConfig, type UserConfig } from 'vite';
 import paths from 'vite-tsconfig-paths';
 
