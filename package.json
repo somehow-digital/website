@@ -25,12 +25,12 @@
 		"prepare:wrangler": "wrangler types",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
 		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
-		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
+		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml,css}'",
 		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
 		"lint:knip": "knip --no-progress",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
 		"fix:eslint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
-		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml}'",
+		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml,css}'",
 		"fix:knip": "knip --fix --no-progress --workspace ."
 	},
 	"dependencies": {
