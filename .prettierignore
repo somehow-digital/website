@@ -1,6 +1,0 @@
-/.cache/
-/node_modules/
-/build/
-/styles/
-pnpm-lock.yaml
-*.tsbuildinfo
