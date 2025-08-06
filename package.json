@@ -19,8 +19,7 @@
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
 		"lint:eslint": "eslint .",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
-		"fix:eslint": "eslint --fix .",
-		"fix:knip": "knip --fix --no-progress --workspace ."
+		"fix:eslint": "eslint --fix ."
 	},
 	"dependencies": {
 		"@remix-run/cloudflare": "^2.9.2",
@@ -33,22 +32,16 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20240529.0",
-		"@commitlint/cli": "^19.3.0",
 		"@fontsource-variable/gabarito": "^5.0.4",
 		"@pandacss/dev": "^1.0.0",
 		"@remix-run/dev": "^2.9.2",
-		"@somehow-digital/commitlint-config": "^1.0.0",
-		"@somehow-digital/cspell-dictionary": "^2.0.0",
 		"@somehow-digital/eslint-config": "^4.0.0",
-		"@somehow-digital/typescript-config": "^3.0.0",
 		"@types/node": "^22.8.7",
 		"@types/react": "^19.0.0",
 		"@types/react-dom": "^19.0.0",
 		"concurrently": "^9.0.0",
-		"cspell": "^9.0.0",
 		"eslint": "^9.1.1",
 		"husky": "^9.0.11",
-		"knip": "^5.11.0",
 		"lint-staged": "^16.0.0",
 		"typescript": "^5.4.5",
 		"vite": "^7.0.0",
