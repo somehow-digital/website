@@ -1,3 +1,25 @@
-import config from '@somehow-digital/eslint-config';
+import antfu from '@antfu/eslint-config';
 
-export default config();
+export default antfu({
+	formatters: {
+		css: true,
+		html: true,
+		markdown: true,
+		svg: true,
+		xml: true,
+	},
+	imports: {
+		overrides: {
+			'perfectionist/sort-imports': [
+				'error',
+				{
+					newlinesBetween: 0,
+				},
+			],
+		},
+	},
+	stylistic: {
+		indent: 'tab',
+		semi: true,
+	},
+});
