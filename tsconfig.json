@@ -1,9 +1,0 @@
-{
-	"extends": "@somehow-digital/typescript-config/remix",
-	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"~/*": ["./app/*"]
-		}
-	}
-}

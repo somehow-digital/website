@@ -18,8 +18,6 @@
 		"prepare:wrangler": "wrangler types",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
 		"lint:eslint": "eslint .",
-		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
-		"lint:knip": "knip --no-progress",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
 		"fix:eslint": "eslint --fix .",
 		"fix:knip": "knip --fix --no-progress --workspace ."
