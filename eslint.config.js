@@ -1,8 +1,3 @@
-import config from '@somehow-digital/eslint-config/typescript';
+import config from '@somehow-digital/eslint-config';
 
-export default [
-	...config,
-	{
-		ignores: ['**/.*/', 'build/', 'styles/', 'worker-configuration.d.ts'],
-	},
-];
+export default config();
