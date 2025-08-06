@@ -4730,46 +4730,6 @@ packages:
       terser:
         optional: true
 
-  vite@7.0.6:
-    resolution: {integrity: sha512-MHFiOENNBd+Bd9uvc8GEsIzdkn1JxMmEeYX35tI3fv0sJBUTfW5tQsoaOwuY4KhBI09A3dUJ/DXf2yxPVPUceg==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': ^20.19.0 || >=22.12.0
-      jiti: '>=1.21.0'
-      less: ^4.0.0
-      lightningcss: ^1.21.0
-      sass: ^1.70.0
-      sass-embedded: ^1.70.0
-      stylus: '>=0.54.8'
-      sugarss: ^5.0.0
-      terser: ^5.16.0
-      tsx: ^4.8.1
-      yaml: ^2.4.2
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      jiti:
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      sass-embedded:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-      tsx:
-        optional: true
-      yaml:
-        optional: true
-
   vite@7.1.2:
     resolution: {integrity: sha512-J0SQBPlQiEXAF7tajiH+rUooJPo0l8KQgyg4/aMunNtrOa7bwuZJsJbDWzeljqQpgftxuq5yNJxQ91O9ts29UQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -5059,7 +5019,7 @@ snapshots:
       '@babel/types': 7.28.2
       '@jridgewell/gen-mapping': 0.3.12
       '@jridgewell/trace-mapping': 0.3.29
-      jsesc: 3.0.2
+      jsesc: 3.1.0
 
   '@babel/helper-annotate-as-pure@7.27.3':
     dependencies:
@@ -10294,7 +10254,7 @@ snapshots:
       debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 7.0.6(@types/node@22.17.1)(jiti@2.5.1)(lightningcss@1.25.1)(yaml@2.8.1)
+      vite: 7.1.2(@types/node@22.17.1)(jiti@2.5.1)(lightningcss@1.25.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -10329,21 +10289,6 @@ snapshots:
       '@types/node': 22.17.1
       fsevents: 2.3.3
       lightningcss: 1.25.1
-
-  vite@7.0.6(@types/node@22.17.1)(jiti@2.5.1)(lightningcss@1.25.1)(yaml@2.8.1):
-    dependencies:
-      esbuild: 0.25.9
-      fdir: 6.4.6(picomatch@4.0.3)
-      picomatch: 4.0.3
-      postcss: 8.5.6
-      rollup: 4.46.2
-      tinyglobby: 0.2.14
-    optionalDependencies:
-      '@types/node': 22.17.1
-      fsevents: 2.3.3
-      jiti: 2.5.1
-      lightningcss: 1.25.1
-      yaml: 2.8.1
 
   vite@7.1.2(@types/node@22.17.1)(jiti@2.5.1)(lightningcss@1.25.1)(yaml@2.8.1):
     dependencies:
