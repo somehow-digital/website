@@ -12,6 +12,7 @@
 		"lint": "eslint **/*.svg"
 	},
 	"devDependencies": {
+		"@prettier/plugin-xml": "^3.4.2",
 		"@somehow-digital/eslint-config": "^4.0.1",
 		"concurrently": "^9.0.0",
 		"eslint": "^9.1.1",
