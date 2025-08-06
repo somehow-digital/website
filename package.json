@@ -14,8 +14,6 @@
 		"deploy": "wrangler pages deploy",
 		"prepare": "concurrently --group --prefix-colors 'auto' 'pnpm:prepare:*'",
 		"prepare:husky": "husky",
-		"prepare:panda": "panda codegen",
-		"prepare:wrangler": "wrangler types",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
 		"lint:eslint": "eslint .",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
