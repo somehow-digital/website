@@ -8,19 +8,10 @@
 		"pnpm": ">=10"
 	},
 	"scripts": {
-		"start": "remix vite:dev",
-		"build": "remix vite:build",
-		"serve": "wrangler pages dev ./build/client",
-		"deploy": "wrangler pages deploy",
-		"prepare": "concurrently --group --prefix-colors 'auto' 'pnpm:prepare:*'",
-		"prepare:husky": "husky",
-		"lint": "eslint **/*.svg",
-		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
-		"fix:eslint": "eslint --fix ."
+		"prepare": "husky",
+		"lint": "eslint **/*.svg"
 	},
-	"dependencies": {
-
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@somehow-digital/eslint-config": "^4.0.0",
 		"concurrently": "^9.0.0",
