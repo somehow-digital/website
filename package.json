@@ -22,38 +22,15 @@
 		"fix:eslint": "eslint --fix ."
 	},
 	"dependencies": {
-		"@remix-run/cloudflare": "^2.9.2",
-		"@remix-run/cloudflare-pages": "^2.9.2",
-		"@remix-run/react": "^2.9.2",
-		"framer-motion": "^12.0.0",
-		"isbot": "^5.0.0",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20240529.0",
-		"@fontsource-variable/gabarito": "^5.0.4",
-		"@pandacss/dev": "^1.0.0",
-		"@remix-run/dev": "^2.9.2",
 		"@somehow-digital/eslint-config": "^4.0.0",
-		"@types/node": "^22.8.7",
-		"@types/react": "^19.0.0",
-		"@types/react-dom": "^19.0.0",
 		"concurrently": "^9.0.0",
 		"eslint": "^9.1.1",
 		"husky": "^9.0.11",
 		"lint-staged": "^16.0.0",
-		"typescript": "^5.4.5",
 		"vite": "^7.0.0",
-		"vite-tsconfig-paths": "^5.0.0",
 		"wrangler": "^4.0.0"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild",
-			"oxc-resolver",
-			"sharp",
-			"workerd"
-		]
 	}
 }
