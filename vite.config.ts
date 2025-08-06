@@ -1,7 +1,6 @@
 import type { UserConfig } from 'vite';
 import { cloudflareDevProxyVitePlugin as proxy, vitePlugin as remix } from '@remix-run/dev';
 import { defineConfig } from 'vite';
-import paths from 'vite-tsconfig-paths';
 
 const config: UserConfig = defineConfig({
 	plugins: [
@@ -13,7 +12,6 @@ const config: UserConfig = defineConfig({
 				v3_throwAbortReason: true,
 			},
 		}),
-		paths(),
 	],
 });
 
