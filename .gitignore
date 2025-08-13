@@ -1,8 +1,1 @@
 /node_modules/
-/.wrangler/
-/.cache/
-/build/
-/styles/
-*.tsbuildinfo
-.env
-worker-configuration.d.ts
