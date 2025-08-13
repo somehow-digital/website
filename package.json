@@ -12,9 +12,7 @@
 	},
 	"devDependencies": {
 		"@somehow-digital/eslint-config": "^4.0.1",
-		"eslint": "^9.1.1",
-		"husky": "^9.0.11",
-		"lint-staged": "^16.0.0"
+		"eslint": "^9.1.1"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
