@@ -54,9 +54,6 @@ importers:
       '@somehow-digital/eslint-config':
         specifier: ^4.0.0
         version: 4.0.2(@vue/compiler-sfc@3.4.19)(astro-eslint-parser@1.2.2)(eslint@9.37.0(jiti@2.6.1))(prettier@3.6.2)(typescript@5.9.3)
-      '@somehow-digital/prettier-config':
-        specifier: ^3.0.0
-        version: 3.0.0(prettier@3.6.2)
       '@somehow-digital/typescript-config':
         specifier: ^3.0.0
         version: 3.0.0(typescript@5.9.3)
@@ -87,9 +84,6 @@ importers:
       lint-staged:
         specifier: ^16.0.0
         version: 16.2.3
-      prettier:
-        specifier: ^3.2.5
-        version: 3.6.2
       typescript:
         specifier: ^5.4.5
         version: 5.9.3
@@ -1969,12 +1963,6 @@ packages:
     engines: {node: '>=20', pnpm: '>=10'}
     peerDependencies:
       eslint: ^9.5.0
-
-  '@somehow-digital/prettier-config@3.0.0':
-    resolution: {integrity: sha512-T+bO2tmp5AwkIcYf/k/f2J/0S2jSOXDSexHJiKe27SUbWI6SlXb8fMgfq8sdOfR+KiHPtp39UwauFzGu1Skcgg==}
-    engines: {node: '>=22', pnpm: '>=10'}
-    peerDependencies:
-      prettier: ^3.0.3
 
   '@somehow-digital/typescript-config@3.0.0':
     resolution: {integrity: sha512-7UzoknMHZVFJJaQqV+GGbaEnURXFkJTbIYTDEoK4CPrlXsrsfT0LqpO8XB4+AP91dDZP00FNu77OTVgSKsPqsw==}
@@ -7568,10 +7556,6 @@ snapshots:
       - svelte-eslint-parser
       - typescript
       - vitest
-
-  '@somehow-digital/prettier-config@3.0.0(prettier@3.6.2)':
-    dependencies:
-      prettier: 3.6.2
 
   '@somehow-digital/typescript-config@3.0.0(typescript@5.9.3)':
     dependencies:

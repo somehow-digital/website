@@ -1,18 +1,11 @@
 {
-	"private": true,
 	"type": "module",
-	"sideEffects": false,
+	"private": true,
 	"packageManager": "pnpm@10.18.0",
+	"sideEffects": false,
 	"engines": {
 		"node": ">=22",
 		"pnpm": ">=10"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild",
-			"sharp",
-			"workerd"
-		]
 	},
 	"scripts": {
 		"start": "remix vite:dev",
@@ -24,13 +17,11 @@
 		"prepare:panda": "panda codegen",
 		"prepare:wrangler": "wrangler types",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
-		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
-		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml,css}'",
-		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
-		"lint:knip": "knip --no-progress",
+		"lint:eslint": "eslint .",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files .",
+		"lint:knip": "knip --no-progress --workspace .",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
-		"fix:eslint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
-		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml,css}'",
+		"fix:eslint": "eslint --fix .",
 		"fix:knip": "knip --fix --no-progress --workspace ."
 	},
 	"dependencies": {
@@ -51,7 +42,6 @@
 		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^2.0.0",
 		"@somehow-digital/eslint-config": "^4.0.0",
-		"@somehow-digital/prettier-config": "^3.0.0",
 		"@somehow-digital/typescript-config": "^3.0.0",
 		"@types/node": "^22.8.7",
 		"@types/react": "^19.0.0",
@@ -62,10 +52,16 @@
 		"husky": "^9.0.11",
 		"knip": "^5.11.0",
 		"lint-staged": "^16.0.0",
-		"prettier": "^3.2.5",
 		"typescript": "^5.4.5",
 		"vite": "^7.0.0",
 		"vite-tsconfig-paths": "^5.0.0",
 		"wrangler": "^4.0.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild",
+			"sharp",
+			"workerd"
+		]
 	}
 }
