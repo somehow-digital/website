@@ -1,5 +1,6 @@
+import type { UserConfig } from 'vite';
 import { cloudflareDevProxyVitePlugin as proxy, vitePlugin as remix } from '@remix-run/dev';
-import { defineConfig, type UserConfig } from 'vite';
+import { defineConfig } from 'vite';
 import paths from 'vite-tsconfig-paths';
 
 const config: UserConfig = defineConfig({

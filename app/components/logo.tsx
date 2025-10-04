@@ -1,11 +1,7 @@
 import type { FunctionComponent } from 'react';
-
 import { useEffect, useRef } from 'react';
-
 import type { LogoAnimationReferences } from '~/components/logo.animation';
-
 import { animation } from '~/components/logo.animation';
-
 import * as styles from './logo.styles';
 
 export const Logo: FunctionComponent = () => {
@@ -31,7 +27,8 @@ export const Logo: FunctionComponent = () => {
 						if (element && references.type.current) {
 							references.type.current[0] = element;
 						}
-					}}>
+					}}
+				>
 					somehow
 				</span>
 
@@ -41,8 +38,10 @@ export const Logo: FunctionComponent = () => {
 						if (element && references.type.current) {
 							references.type.current[1] = element;
 						}
-					}}>
-					digital<span ref={references.dot}>.</span>
+					}}
+				>
+					digital
+					<span ref={references.dot}>.</span>
 				</span>
 			</span>
 
@@ -56,7 +55,9 @@ export const Logo: FunctionComponent = () => {
 								if (element && references.bars.current) {
 									references.bars.current[index] = element;
 								}
-							}}></span>
+							}}
+						>
+						</span>
 					);
 				})}
 			</span>

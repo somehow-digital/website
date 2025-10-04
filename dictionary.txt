@@ -1,2 +1,3 @@
 isbot
 gabarito
+maxage
