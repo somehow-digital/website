@@ -43,7 +43,7 @@
 		"@somehow-digital/cspell-dictionary": "^2.0.0",
 		"@somehow-digital/eslint-config": "^4.0.0",
 		"@somehow-digital/typescript-config": "^3.0.0",
-		"@types/node": "^22.8.7",
+		"@types/node": "^24.0.0",
 		"@types/react": "^19.0.0",
 		"@types/react-dom": "^19.0.0",
 		"concurrently": "^9.0.0",
