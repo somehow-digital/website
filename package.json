@@ -54,7 +54,7 @@
 		"lint-staged": "^16.0.0",
 		"typescript": "^5.4.5",
 		"vite": "^7.0.0",
-		"vite-tsconfig-paths": "^5.0.0",
+		"vite-tsconfig-paths": "^6.0.0",
 		"wrangler": "^4.0.0"
 	},
 	"pnpm": {
