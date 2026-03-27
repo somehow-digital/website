@@ -1,3 +1,5 @@
 isbot
 gabarito
 maxage
+esbuild
+workerd
