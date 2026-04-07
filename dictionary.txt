@@ -3,3 +3,4 @@ gabarito
 maxage
 esbuild
 workerd
+trufflesecurity
