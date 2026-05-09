@@ -16,19 +16,19 @@ importers:
         version: 2.17.4(@cloudflare/workers-types@4.20260509.1)(typescript@6.0.3)
       '@remix-run/react':
         specifier: ^2.9.2
-        version: 2.17.4(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(typescript@6.0.3)
+        version: 2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@6.0.3)
       framer-motion:
         specifier: ^12.0.0
-        version: 12.38.0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 12.38.0(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       isbot:
         specifier: ^5.0.0
         version: 5.1.40
       react:
         specifier: ^19.0.0
-        version: 19.2.5
+        version: 19.2.6
       react-dom:
         specifier: ^19.0.0
-        version: 19.2.5(react@19.2.5)
+        version: 19.2.6(react@19.2.6)
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20240529.0
@@ -44,7 +44,7 @@ importers:
         version: 1.11.0(typescript@6.0.3)
       '@remix-run/dev':
         specifier: ^2.9.2
-        version: 2.17.4(@remix-run/react@2.17.4(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(typescript@6.0.3))(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)(typescript@6.0.3)(vite@8.0.11(@types/node@24.12.3)(esbuild@0.17.6)(jiti@2.7.0)(yaml@2.8.4))(wrangler@4.90.0(@cloudflare/workers-types@4.20260509.1))(yaml@2.8.4)
+        version: 2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@6.0.3))(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)(typescript@6.0.3)(vite@8.0.11(@types/node@24.12.3)(esbuild@0.17.6)(jiti@2.7.0)(yaml@2.8.4))(wrangler@4.90.0(@cloudflare/workers-types@4.20260509.1))(yaml@2.8.4)
       '@somehow-digital/commitlint-config':
         specifier: ^1.0.0
         version: 1.2.0(@commitlint/cli@21.0.0(@types/node@24.12.3)(conventional-commits-parser@6.4.0)(typescript@6.0.3))(cspell@10.0.0)
@@ -5691,10 +5691,10 @@ packages:
     resolution: {integrity: sha512-K5zQjDllxWkf7Z5xJdV0/B0WTNqx6vxG70zJE4N0kBs4LovmEYWJzQGxC9bS9RAKu3bgM40lrd5zoLJ12MQ5BA==}
     engines: {node: '>= 0.10'}
 
-  react-dom@19.2.5:
-    resolution: {integrity: sha512-J5bAZz+DXMMwW/wV3xzKke59Af6CHY7G4uYLN1OvBcKEsWOs4pQExj86BBKamxl/Ik5bx9whOrvBlSDfWzgSag==}
+  react-dom@19.2.6:
+    resolution: {integrity: sha512-0prMI+hvBbPjsWnxDLxlCGyM8PN6UuWjEUCYmZhO67xIV9Xasa/r/vDnq+Xyq4Lo27g8QSbO5YzARu0D1Sps3g==}
     peerDependencies:
-      react: ^19.2.5
+      react: ^19.2.6
 
   react-refresh@0.14.2:
     resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==}
@@ -5713,8 +5713,8 @@ packages:
     peerDependencies:
       react: '>=16.8'
 
-  react@19.2.5:
-    resolution: {integrity: sha512-llUJLzz1zTUBrskt2pwZgLq59AemifIftw4aB7JxOqf1HY2FDaGDxgwpAPVzHU1kdWabH7FauP4i1oEeer2WCA==}
+  react@19.2.6:
+    resolution: {integrity: sha512-sfWGGfavi0xr8Pg0sVsyHMAOziVYKgPLNrS7ig+ivMNb3wbCBw3KxtflsGBAwD3gYQlE/AEZsTLgToRrSCjb0Q==}
     engines: {node: '>=0.10.0'}
 
   readable-stream@2.3.8:
@@ -8656,7 +8656,7 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(typescript@6.0.3))(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)(typescript@6.0.3)(vite@8.0.11(@types/node@24.12.3)(esbuild@0.17.6)(jiti@2.7.0)(yaml@2.8.4))(wrangler@4.90.0(@cloudflare/workers-types@4.20260509.1))(yaml@2.8.4)':
+  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@6.0.3))(@types/node@24.12.3)(jiti@2.7.0)(lightningcss@1.32.0)(typescript@6.0.3)(vite@8.0.11(@types/node@24.12.3)(esbuild@0.17.6)(jiti@2.7.0)(yaml@2.8.4))(wrangler@4.90.0(@cloudflare/workers-types@4.20260509.1))(yaml@2.8.4)':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/generator': 7.29.1
@@ -8669,7 +8669,7 @@ snapshots:
       '@mdx-js/mdx': 2.3.0
       '@npmcli/package-json': 4.0.1
       '@remix-run/node': 2.17.4(typescript@6.0.3)
-      '@remix-run/react': 2.17.4(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(typescript@6.0.3)
+      '@remix-run/react': 2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@6.0.3)
       '@remix-run/router': 1.23.2
       '@remix-run/server-runtime': 2.17.4(typescript@6.0.3)
       '@types/mdx': 2.0.13
@@ -8750,14 +8750,14 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  '@remix-run/react@2.17.4(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(typescript@6.0.3)':
+  '@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@6.0.3)':
     dependencies:
       '@remix-run/router': 1.23.2
       '@remix-run/server-runtime': 2.17.4(typescript@6.0.3)
-      react: 19.2.5
-      react-dom: 19.2.5(react@19.2.5)
-      react-router: 6.30.3(react@19.2.5)
-      react-router-dom: 6.30.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+      react: 19.2.6
+      react-dom: 19.2.6(react@19.2.6)
+      react-router: 6.30.3(react@19.2.6)
+      react-router-dom: 6.30.3(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       turbo-stream: 2.4.1
     optionalDependencies:
       typescript: 6.0.3
@@ -10895,14 +10895,14 @@ snapshots:
 
   forwarded@0.2.0: {}
 
-  framer-motion@12.38.0(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
+  framer-motion@12.38.0(react-dom@19.2.6(react@19.2.6))(react@19.2.6):
     dependencies:
       motion-dom: 12.38.0
       motion-utils: 12.36.0
       tslib: 2.8.1
     optionalDependencies:
-      react: 19.2.5
-      react-dom: 19.2.5(react@19.2.5)
+      react: 19.2.6
+      react-dom: 19.2.6(react@19.2.6)
 
   fresh@0.5.2: {}
 
@@ -12737,26 +12737,26 @@ snapshots:
       iconv-lite: 0.7.2
       unpipe: 1.0.0
 
-  react-dom@19.2.5(react@19.2.5):
+  react-dom@19.2.6(react@19.2.6):
     dependencies:
-      react: 19.2.5
+      react: 19.2.6
       scheduler: 0.27.0
 
   react-refresh@0.14.2: {}
 
-  react-router-dom@6.30.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
+  react-router-dom@6.30.3(react-dom@19.2.6(react@19.2.6))(react@19.2.6):
     dependencies:
       '@remix-run/router': 1.23.2
-      react: 19.2.5
-      react-dom: 19.2.5(react@19.2.5)
-      react-router: 6.30.3(react@19.2.5)
+      react: 19.2.6
+      react-dom: 19.2.6(react@19.2.6)
+      react-router: 6.30.3(react@19.2.6)
 
-  react-router@6.30.3(react@19.2.5):
+  react-router@6.30.3(react@19.2.6):
     dependencies:
       '@remix-run/router': 1.23.2
-      react: 19.2.5
+      react: 19.2.6
 
-  react@19.2.5: {}
+  react@19.2.6: {}
 
   readable-stream@2.3.8:
     dependencies:
