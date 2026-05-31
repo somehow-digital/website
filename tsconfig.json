@@ -1,9 +1,8 @@
 {
-	"extends": "@somehow-digital/typescript-config/remix",
+	"extends": "@somehow-digital/typescript-config/basic",
 	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"~/*": ["./app/*"]
-		}
-	}
+		"allowArbitraryExtensions": true
+	},
+	"include": ["./.astro/types.d.ts", "./**/*"],
+	"exclude": ["./dist/"]
 }

@@ -8,5 +8,7 @@ ignorePatchFailures: false
 optimisticRepeatInstall: true
 shellEmulator: true
 trustPolicy: no-downgrade
+trustPolicyExclude:
+  - tinyclip@0.1.13
 trustPolicyIgnoreAfter: 10080
 verifyDepsBeforeRun: install
