@@ -1,0 +1,16 @@
+---
+import Body from '../components/body.astro';
+import Head from '../components/head.astro';
+import { getCurrentLocale } from '../utilities/localization';
+
+const locale = getCurrentLocale(Astro.currentLocale);
+---
+<html lang={locale}>
+	<Head>
+		<slot name="head" />
+	</Head>
+
+	<Body>
+		<slot />
+	</Body>
+</html>

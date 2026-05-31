@@ -1,8 +1,7 @@
-/node_modules/
+/.astro/
 /.wrangler/
-/.cache/
-/build/
-/styles/
-*.tsbuildinfo
+/node_modules/
+/dist/
+/public/assets/fonts/
 .env
 worker-configuration.d.ts

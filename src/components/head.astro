@@ -1,0 +1,17 @@
+---
+import { getCurrentLocale, useMessages } from '../utilities/localization';
+
+const locale = getCurrentLocale(Astro.currentLocale);
+
+const m = useMessages(locale);
+
+const { title = m('site_title') } = Astro.props;
+---
+<head>
+	<meta charset="utf-8" />
+	<title>{title}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+	<slot />
+</head>
