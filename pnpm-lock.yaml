@@ -19,7 +19,7 @@ importers:
         version: 2.17.5(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)
       isbot:
         specifier: ^5.0.0
-        version: 5.2.1
+        version: 5.2.2
       motion:
         specifier: ^13.0.0
         version: 13.1.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -4341,8 +4341,8 @@ packages:
   isarray@1.0.0:
     resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
 
-  isbot@5.2.1:
-    resolution: {integrity: sha512-dJ+LpKyClQZ7NG+j3OensC/mAZkGpukE9YUrgPYvAZj2doVL0edfDgywTUh5CXa0o+nW9a1V9e5+CJTX8+SxRw==}
+  isbot@5.2.2:
+    resolution: {integrity: sha512-iQcBXcd+Rv/pkubRyGh2utW2j1oPG5hZY6TUhVPpqK4G+o3IbxpJNx04hgksjc/N7GK5pEorUxDeg31cFgEk/w==}
     engines: {node: '>=18'}
 
   isexe@2.0.0:
@@ -10594,7 +10594,7 @@ snapshots:
 
   isarray@1.0.0: {}
 
-  isbot@5.2.1: {}
+  isbot@5.2.2: {}
 
   isexe@2.0.0: {}
 
