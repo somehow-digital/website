@@ -6496,7 +6496,7 @@ snapshots:
       '@babel/types': 7.29.8
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
-      jsesc: 3.1.0
+      jsesc: 3.0.2
 
   '@babel/helper-annotate-as-pure@7.29.7':
     dependencies:
@@ -7069,13 +7069,13 @@ snapshots:
 
   '@csstools/postcss-cascade-layers@5.0.2(postcss@8.5.14)':
     dependencies:
-      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.5)
+      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.1)
       postcss: 8.5.14
-      postcss-selector-parser: 7.1.5
+      postcss-selector-parser: 7.1.1
 
-  '@csstools/selector-specificity@5.0.0(postcss-selector-parser@7.1.5)':
+  '@csstools/selector-specificity@5.0.0(postcss-selector-parser@7.1.1)':
     dependencies:
-      postcss-selector-parser: 7.1.5
+      postcss-selector-parser: 7.1.1
 
   '@dprint/formatter@0.5.1': {}
 
@@ -11980,7 +11980,7 @@ snapshots:
     dependencies:
       cssesc: 3.0.0
       postcss: 8.5.14
-      postcss-selector-parser: 7.1.5
+      postcss-selector-parser: 7.1.1
 
   postcss-modules-extract-imports@3.1.0(postcss@8.5.28):
     dependencies:
@@ -12018,7 +12018,7 @@ snapshots:
   postcss-nested@7.0.2(postcss@8.5.14):
     dependencies:
       postcss: 8.5.14
-      postcss-selector-parser: 7.1.5
+      postcss-selector-parser: 7.1.1
 
   postcss-normalize-whitespace@7.0.1(postcss@8.5.14):
     dependencies:
