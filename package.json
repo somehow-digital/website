@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"private": true,
-	"packageManager": "pnpm@11.28.4",
+	"packageManager": "pnpm@11.28.5",
 	"sideEffects": false,
 	"engines": {
 		"node": ">=22",
