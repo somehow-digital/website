@@ -11,9 +11,7 @@ export default defineConfig({
 	}),
 	base: '/',
 	integrations: [
-		unocss({
-			injectReset: true,
-		}),
+		unocss(),
 		sitemap(),
 	],
 	output: 'static',

@@ -9,7 +9,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"build": "astro build",
-		"preview": "astro preview",
+		"preview": "wrangler versions upload --config dist/client/wrangler.json",
 		"deploy": "void deploy --platform cloudflare",
 		"prepare": "concurrently --group --prefix-colors 'auto' 'pnpm:prepare:*'",
 		"prepare:hooks": "vp config --no-agent",
@@ -27,7 +27,6 @@
 		"@astrojs/cloudflare": "^14.4.2",
 		"@astrojs/sitemap": "^3.2.1",
 		"@fontsource-variable/gabarito": "^5.0.4",
-		"@unocss/reset": "^66.0.0",
 		"astro": "^7.4.0",
 		"motion": "^14.0.0"
 	},
