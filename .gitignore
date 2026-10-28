@@ -1,8 +1,9 @@
-/node_modules/
+/.astro/
+/.void/
+/.void-wrangler.jsonc
+/.vite-hooks/_/
 /.wrangler/
-/.cache/
-/build/
-/styles/
-*.tsbuildinfo
+/node_modules/
+/dist/
 .env
-worker-configuration.d.ts
+*.tsbuildinfo
