@@ -1,0 +1,41 @@
+---
+const bars: string[] = ['self-end h-80%', 'h-full', 'self-start h-80%', 'h-full', 'h-60%'];
+---
+<h1 class="text-[2.5rem] leading-[1em] tracking-[-0.025em] font-['Gabarito_Variable',sans-serif] font-450 m-0 flex flex-row-reverse gap-[0.35em] invisible items-center relative motion-reduce:visible" data-logo>
+	<span class="flex-none block top-[-0.09em] relative overflow-x-clip">
+		<span class="block" data-logo-type>somehow</span>
+		<span class="block" data-logo-type>digital<span data-logo-dot>.</span></span>
+	</span>
+
+	<span class="flex flex-none flex-row gap-[0.05em] aspect-square items-center" aria-hidden="true" data-logo-mark>
+		{bars.map(size => <span class:list={['m-0 block w-[0.3125em] origin-bottom rounded-[0.025em] bg-current p-0', size]} data-logo-bar></span>)}
+	</span>
+</h1>
+
+<noscript>
+	<style>
+		[data-logo] {
+			visibility: visible;
+		}
+	</style>
+</noscript>
+
+<script>
+	import { animation } from './logo.animation';
+
+	const base = document.querySelector<HTMLElement>('[data-logo]');
+
+	if (base && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+		const controls = animation({
+			bars: [...base.querySelectorAll<HTMLElement>('[data-logo-bar]')],
+			base,
+			dot: base.querySelector<HTMLElement>('[data-logo-dot]'),
+			mark: base.querySelector<HTMLElement>('[data-logo-mark]'),
+			type: [...base.querySelectorAll<HTMLElement>('[data-logo-type]')],
+		});
+
+		if (!controls) {
+			base.style.visibility = 'visible';
+		}
+	}
+</script>

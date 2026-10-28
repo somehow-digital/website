@@ -1,21 +1,8 @@
-import type { UserConfig } from 'vite';
-import { cloudflareDevProxyVitePlugin as proxy, vitePlugin as remix } from '@remix-run/dev';
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite-plus';
 
-const config: UserConfig = defineConfig({
-	plugins: [
-		proxy(),
-		remix({
-			future: {
-				v3_fetcherPersist: true,
-				v3_relativeSplatPath: true,
-				v3_throwAbortReason: true,
-			},
-		}),
-	],
-	resolve: {
-		tsconfigPaths: true,
+export default defineConfig({
+	staged: {
+		'**/*.{*,__eslint__}': 'eslint',
+		'**/*.{*,__cspell__}': 'cspell --no-progress --no-summary --no-must-find-files',
 	},
 });
-
-export default config;
