@@ -178,9 +178,6 @@ importers:
       '@fontsource-variable/gabarito':
         specifier: ^5.0.4
         version: 5.3.0
-      '@unocss/reset':
-        specifier: ^66.0.0
-        version: 66.12.0
       astro:
         specifier: ^7.4.0
         version: 7.4.2(@types/node@24.19.2)(@volar/typescript@2.4.30(typescript@6.0.3))(aws4fetch@1.0.20)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(typescript@6.0.3)(yaml@2.9.1)
