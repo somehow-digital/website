@@ -10,7 +10,7 @@
 		"dev": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"deploy": "void deploy",
+		"deploy": "void deploy --platform cloudflare",
 		"prepare": "concurrently --group --prefix-colors 'auto' 'pnpm:prepare:*'",
 		"prepare:hooks": "vp config --no-agent",
 		"prepare:astro": "astro sync",
