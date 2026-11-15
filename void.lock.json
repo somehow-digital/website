@@ -6,6 +6,7 @@
       "nodejs_als"
     ],
     "name": "somehow-digital-website",
+    "preview_urls": false,
     "routes": [
       {
         "custom_domain": true,
@@ -23,10 +24,14 @@
         "custom_domain": true,
         "pattern": "www.somehow-digital.com"
       }
-    ]
+    ],
+    "workers_dev": false
   },
   "resolved": {
     "compatibility_date": "2026-10-19",
+    "compatibility_flags": [
+      "nodejs_als"
+    ],
     "name": "somehow-digital-website",
     "routes": [
       {
@@ -47,9 +52,8 @@
       }
     ],
     "account_id": "5455564c18509e8c576d34d35cca8137",
-    "compatibility_flags": [
-      "nodejs_als"
-    ]
+    "preview_urls": false,
+    "workers_dev": false
   },
-  "text": "{\n  \"compatibility_date\": \"2026-10-19\",\n  \"name\": \"somehow-digital-website\",\n  \"routes\": [\n    {\n      \"custom_domain\": true,\n      \"pattern\": \"somehow.digital\"\n    },\n    {\n      \"custom_domain\": true,\n      \"pattern\": \"www.somehow.digital\"\n    },\n    {\n      \"custom_domain\": true,\n      \"pattern\": \"somehow-digital.com\"\n    },\n    {\n      \"custom_domain\": true,\n      \"pattern\": \"www.somehow-digital.com\"\n    }\n  ],\n  \"account_id\": \"5455564c18509e8c576d34d35cca8137\",\n  \"compatibility_flags\": [\n    \"nodejs_als\"\n  ]\n}\n"
+  "text": "{\n  \"compatibility_date\": \"2026-10-19\",\n  \"compatibility_flags\": [\n    \"nodejs_als\"\n  ],\n  \"name\": \"somehow-digital-website\",\n  \"routes\": [\n    {\n      \"custom_domain\": true,\n      \"pattern\": \"somehow.digital\"\n    },\n    {\n      \"custom_domain\": true,\n      \"pattern\": \"www.somehow.digital\"\n    },\n    {\n      \"custom_domain\": true,\n      \"pattern\": \"somehow-digital.com\"\n    },\n    {\n      \"custom_domain\": true,\n      \"pattern\": \"www.somehow-digital.com\"\n    }\n  ],\n  \"account_id\": \"5455564c18509e8c576d34d35cca8137\",\n  \"preview_urls\": false,\n  \"workers_dev\": false\n}\n"
 }
