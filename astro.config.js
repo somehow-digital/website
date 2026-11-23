@@ -19,6 +19,8 @@ export default defineConfig({
 	site: 'https://somehow.digital/',
 	trailingSlash: 'always',
 	vite: {
-		plugins: [voidPlugin()],
+		plugins: [
+			voidPlugin(),
+		],
 	},
 });
